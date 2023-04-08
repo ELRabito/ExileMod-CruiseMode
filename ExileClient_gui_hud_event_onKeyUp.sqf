@@ -44,7 +44,7 @@ if (_keyCode in (actionKeys "User3")) exitWith
 	ExileClientWaypoints = [];
 	true
 };
-/* ExileMod Cruise Mode Start */
+/* ExileMod Cruise Mode Start (by El'Rabito) */
 if (_keyCode in (actionKeys "User8")) exitWith //You can change the Custom User action to a different one (Keep in mind Exile already uses certain ones (1-4)).
 {
 	if !(isNull objectParent player) then
@@ -56,7 +56,7 @@ if (_keyCode in (actionKeys "User8")) exitWith //You can change the Custom User 
 	};
 	true
 };
-/* ExileMod Cruise Mode End */
+/* ExileMod Cruise Mode End (by El'Rabito) */
 switch (_keyCode) do  
 { 
 	case 0x29:	
